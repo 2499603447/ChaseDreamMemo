@@ -11,7 +11,11 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>ChaseDream Memo</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="src.qrc">
+    <normaloff>:/res/icon/res/icon/logo.svg</normaloff>:/res/icon/res/icon/logo.svg</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QWidget" name="gridLayoutWidget">
@@ -20,7 +24,7 @@
       <x>10</x>
       <y>10</y>
       <width>781</width>
-      <height>541</height>
+      <height>551</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout"/>
@@ -36,8 +40,9 @@
     </rect>
    </property>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources/>
+ <resources>
+  <include location="src.qrc"/>
+ </resources>
  <connections/>
 </ui>
